@@ -34,126 +34,6 @@
     src: url(/fonts/Ambit-Bold.ttf)
 }
 
-.tui-red {
-    color: #d40e14 !important;
-}
-
-.tui-bck-red {
-    background-color: #d40e14 !important;
-}
-
-.tui-blue {
-    color: #70cbf4 !important;
-}
-
-.tui-bck-blue {
-    background-color: #70cbf4 !important;
-}
-.tui-energy-blue {
-    color: #3567F6 !important;
-}
-
-.tui-bck-energy-blue {
-    background-color: #3567F6 !important;
-}
-
-.tui-darkblue {
-    color: #1B115C !important;
-}
-
-.tui-bck-darkblue {
-    background-color: #1B115C !important;
-}
-
-.tui-blue60 {
-    color: #A9E0F8 !important;
-}
-
-.tui-bck-blue60 {
-    background-color: #A9E0F8 !important;
-}
-
-
-.tui-blue40 {
-    color: #C6EAFB !important;
-}
-
-.tui-bck-blue40 {
-    background-color: #C6EAFB !important;
-}
-
-.tui-blue25 {
-    color: #e2f3fe !important;
-}
-
-.tui-bck-blue25 {
-    background-color: #e2f3fe !important;
-}
-
-.tui-blue10 {
-    color: #F1FAFE !important;
-}
-
-.tui-bck-blue10 {
-    background-color: #F1FAFE !important;
-}
-
-.tui-beige {
-    color: #d7d2ce !important;
-}
-
-.tui-bck-beige50 {
-    background-color: #e7e3db !important;
-}
-
-.tui-beige50 {
-    color: #e7e3db !important;
-}
-
-.tui-bck-beige {
-    background-color: #d7d2ce !important;
-}
-
-.tui-bck-beige25 {
-    background-color: #f3f0ec !important;
-}
-
-.tui-beige25 {
-    color: #f3f0ec !important;
-}
-
-.tui-grey {
-    color: #737373 !important;
-}
-
-.tui-bck-grey {
-    background-color: #737373 !important;
-}
-
-.tui-grey50 {
-    color: #b9b9b9 !important;
-}
-
-.tui-bck-grey50 {
-    background-color: #b9b9b9 !important;
-}
-
-.tui-grey25 {
-    color: #dcdcdc !important;
-}
-
-.tui-bck-grey25 {
-    background-color: #dcdcdc !important;
-}
-
-
-
-.tui-underline {
-    text-decoration: underline;
-    -webkit-text-decoration-color: #A9E0F8; /* Safari */
-    text-decoration-color: #A9E0F8;
-}
-
 .mt-1 {
     margin-top: 5px;
 }
@@ -2258,12 +2138,6 @@ section.c3 {
         border-radius: 20px !important;
     }
 
-.footer-back-image {
-    background-image: url('/images/footer-tui/TUI-Spain_Footer_V1.png');
-    background-position: top center;
-    font-family: 'Ambit', Ambit !important;
-}
-
 .foot-social {
 }
 
@@ -2376,23 +2250,6 @@ footer ul li a {
 .foot-sec2 p {
     color: #616161;
 }
-
-.confiar-tui {
-    padding: 30px;
-    text-align: center;
-    color: #1B115C;
-    font-family: 'Ambit', Ambit;
-    font-size: 15px;
-}
-
-    .confiar-tui span {
-        font-size: 25px;
-        font-weight: bolder;
-    }
-
-    .confiar-tui .letrero {
-        padding: 10px !important;
-    }
 
 .two-columns {
     padding: 0px;
@@ -4464,8 +4321,6 @@ footer ul li a {
         left: 50%;
         /* centers the loading animation horizontally one the screen */
         top: 50%;
-        /* centers the loading animation vertically one the screen */
-        background-image: url(/images/tuiloader.png);
         /* path to your loading animation */
         background-repeat: no-repeat;
         background-position: center;
@@ -7060,7 +6915,6 @@ footer ul li a {
             }
 
             .tr-login-register-form .content .subtitle {
-                background-image: url(/images/icon/TUI/Account/icono-check-pantalla-login.svg);
                 background-color: transparent; /* Used if the image is unavailable */
                 background-size: 45px; /* You must set a specified height */
                 background-position: left -10px; /* Center the image */
@@ -8064,38 +7918,6 @@ footer ul li a {
         display: inline-block;
         background-size: cover;
     }
-
-    .icon-presupuestos {
-        background: url('../images/icon/TUI/Account/icono-buscador-reservas.svg');
-    }
-
-        .icon-presupuestos:hover, .icon-presupuestos:focus {
-            background: url('../images/icon/TUI/Account/icono-buscador-reservas-hover.svg');
-        }
-
-    .icon-usulog {
-        background: url('../images/icon/TUI/Account/usuario-icono-conlog.svg');
-    }
-
-        .icon-usulog:hover, icon-usulog:focus {
-            background: url('../images/icon/TUI/Account/usuario-icono-conlog-red.svg');
-        }
-
-    .icon-ususinlog {
-        background: url('../images/icon/TUI/Account/usuario-icono-sinlog.svg');
-    }
-
-        .icon-ususinlog:hover, icon-ususinlog:focus {
-            background: url('../images/icon/TUI/Account/usuario-icono-sinlog-red.svg');
-        }
-
-    .icon-logout {
-        background: url('../images/icon/TUI/Account/icono-cerrar-sesion.svg');
-    }
-
-        .icon-logout:hover, icon-logout:focus {
-            background: url('../images/icon/TUI/Account/icono-cerrar-sesion-hover.svg');
-        }
 
     .main-menu-b {
         color: #737373;
@@ -13121,4 +12943,36 @@ footer ul li a {
         width: auto !important;
         min-height: 45px !important;
         margin-right: 3px;
-    }}
+    }
+    
+.btn-search-link-red {
+    background-color: #d40e14 !important;
+    border: 0;
+    border-radius: 0px;
+    color: #fff !important;
+    font-size: 13px !important;
+    font-weight: 600;
+    text-shadow: none;
+    display: inline-block;
+    text-transform: inherit;
+    cursor: pointer;
+    /*padding: 13px;*/
+    width: 100%;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    text-decoration: none !important;
+    /*font-family: 'TUITypeLt', sans-serif;*/
+    font-family: 'Ambit', Ambit;
+    /*text-transform: capitalize !important;*/
+    letter-spacing: 4px;
+    height: 45px;
+    line-height: 45px;
+}
+
+
+
+    .btn-search-link-red:hover {
+        background-color: #a80b10 !important;
+    }

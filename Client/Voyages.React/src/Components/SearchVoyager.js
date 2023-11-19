@@ -37,7 +37,7 @@ export default function SearchVoyager() {
                   <input type="text" id="lastname" name="lastname" className="form-control text-input rounded" value={inputs.lastname || ""} placeholder="Nom..." onChange={handleChange} />
               </div>
               <div id="search-button-div1" className="col-lg-2 col-md-2 col-sm-12 col-xs-12 tourz-search-form col-margin">
-                  <input type="submit" id="btn-search" value="Rechercher" style={{ borderRadius: '5px', height: '32px', lineHeight: '32px'}} className="btn-tui-search-link-red rounded" />
+                  <input type="submit" id="btn-search" value="Rechercher" style={{ borderRadius: '5px', height: '32px', lineHeight: '32px'}} className="btn-search-link-red rounded" />
               </div>
           </div>
           <div className="">
