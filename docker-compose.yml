@@ -1,0 +1,23 @@
+version: '3'
+services:
+  server.webapi:
+    build:
+      context: ./Server
+      dockerfile: Voyages.WebApi/Dockerfile
+    ports:
+      - "1000:1000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+  server.graphqlapi:
+    build:
+      context: ./Server
+      dockerfile: Voyages.GraphQL.Api/Dockerfile
+    ports:
+      - "2000:2000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+  client.react:
+    build:
+      context: ./Client/Voyages.React
+    ports:
+      - "3000:3000"
